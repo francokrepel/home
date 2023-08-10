@@ -69,26 +69,42 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Internship in South Africa",
   message:
-    "Throughout my academic and professional journey, I've taken on various leadership roles that have allowed me to contribute to the community, manage teams, and drive initiatives forward. Here are some of the leadership roles I've held:",
+    "During my time in Cape Town, South Africa, I embarked on a transformative journey that expanded both my professional and personal horizons. As a Full-Stack Software Engineer Intern with Youth in Transformation, I was immersed in a dynamic tech environment that challenged me to apply my skills in real-world scenarios. Beyond the technical aspects, South Africa offered a rich tapestry of cultures, landscapes, and histories. From the majestic Table Mountain to the vibrant streets of Bo-Kaap, every experience deepened my appreciation for the country's diversity. Engaging with locals, I gained insights into the nation's complex past and its aspirations for the future. This experience in South Africa was not just about honing my technical skills; it was a holistic journey that left an indelible mark on my worldview.",
   images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
-      label: "Warrington Book Club", 
-      paragraph: "As the Vice President of Technological Development since January 2022, I manage a weekly newsletter for 115 members, providing deadlines, reminders, and career opportunities. I also co-direct the “Research Committee”, crafting presentations for members from compiled information from book chapters." 
+    {
+      img: require('../assets/img/2.JPG'),
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
-      label: "Student Investment Club", 
-      paragraph: "Serving as the Programming and Website Director since August 2021, I speak to over 100 members to help them understand the finance industry and UF’s opportunities to break into the industry. I've also been instrumental in rebranding the organization by building a new website using Next.js with Tailwind and enhancing visuals with Photoshop." 
+      img: require('../assets/img/3.jpg'), // Update with your image or a relevant image
+      // label: "Warrington Book Club", 
+      // paragraph: "As the Vice President of Technological Development since January 2022, I manage a weekly newsletter for 115 members, providing deadlines, reminders, and career opportunities. I also co-direct the “Research Committee”, crafting presentations for members from compiled information from book chapters." 
     },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
-      label: "Society of Hispanic Professional Engineers", 
-      paragraph: "As the Marketing Cabinet - Apparel Director from January to May 2021, I raised $790 with custom Photoshop-designed t-shirts for an event, reinvesting the proceeds into the organization for future events. I also optimized t-shirt inventory management using a normal distribution model, resulting in 26% less remaining inventory." 
+    {
+      img: require('../assets/img/7.JPG'),
     },
+    {
+      img: require('../assets/img/6.jpg'),
+    },
+    {
+      img: require('../assets/img/5.jpg'),
+    },
+    {
+      img: require('../assets/img/4.jpg'),
+    },
+
+    // { 
+    //   img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
+    //   // label: "Student Investment Club", 
+    //   // paragraph: "Serving as the Programming and Website Director since August 2021, I speak to over 100 members to help them understand the finance industry and UF’s opportunities to break into the industry. I've also been instrumental in rebranding the organization by building a new website using Next.js with Tailwind and enhancing visuals with Photoshop." 
+    // },
+    // { 
+    //   img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
+    //   // label: "Society of Hispanic Professional Engineers", 
+    //   // paragraph: "As the Marketing Cabinet - Apparel Director from January to May 2021, I raised $790 with custom Photoshop-designed t-shirts for an event, reinvesting the proceeds into the organization for future events. I also optimized t-shirt inventory management using a normal distribution model, resulting in 26% less remaining inventory." 
+    // },
   ],
   imageSize: {
     width:"615",
@@ -165,7 +181,7 @@ const experiences = {
 
 // Blog SECTION
 // const blog = {
-//   show: false,
+//   show: true,
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
