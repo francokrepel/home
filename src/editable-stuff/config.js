@@ -1,35 +1,31 @@
 // Navigation Bar SECTION
 const navBar = {
   show: true,
-};
+};  
 
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
-  middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  firstName: "Franco",
+  middleName: "A.",
+  lastName: "Krepel",
+  message: "Passionate about technology and its power to change the world.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/francokrepel",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/francokrepel",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/francokrepel/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/franco-krepel-a241b21b7/",
     },
   ],
 };
@@ -51,11 +47,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/franco.jpeg"), // Update this with your image or leave it as is for now
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Franco A. Krepel. I'm a student at the University of Florida Herbert Wertheim College of Engineering pursuing a Bachelor of Science in Computer Science with a minor in Economics. I'm passionate about technology, bioinformatics, and software engineering. I've had diverse experiences ranging from software engineering internships to computational genomics research.",
+  resume: "https://drive.google.com/file/d/1p3rGLj11getIsPwU9zgl9ziV0L558fvi/view?usp=sharing", // Update this with a link to your resume
 };
 
 // PROJECTS SECTION
@@ -66,9 +62,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "francokrepel",
+  reposLength: 0,
+  specificRepos: ["DBS", "Schedule-a-Doc", "Compiler", "student-investment-club", "COVID-Tracer"],
 };
 
 // Leadership SECTION
@@ -76,17 +72,22 @@ const leadership = {
   show: false,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "Throughout my academic and professional journey, I've taken on various leadership roles that have allowed me to contribute to the community, manage teams, and drive initiatives forward. Here are some of the leadership roles I've held:",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
+      label: "Warrington Book Club", 
+      paragraph: "As the Vice President of Technological Development since January 2022, I manage a weekly newsletter for 115 members, providing deadlines, reminders, and career opportunities. I also co-direct the “Research Committee”, crafting presentations for members from compiled information from book chapters." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
+      label: "Student Investment Club", 
+      paragraph: "Serving as the Programming and Website Director since August 2021, I speak to over 100 members to help them understand the finance industry and UF’s opportunities to break into the industry. I've also been instrumental in rebranding the organization by building a new website using Next.js with Tailwind and enhancing visuals with Photoshop." 
+    },
+    { 
+      img: require("../editable-stuff/hashirshoaeb.png"), // Update with your image or a relevant image
+      label: "Society of Hispanic Professional Engineers", 
+      paragraph: "As the Marketing Cabinet - Apparel Director from January to May 2021, I raised $790 with custom Photoshop-designed t-shirts for an event, reinvesting the proceeds into the organization for future events. I also optimized t-shirt inventory management using a normal distribution model, resulting in 26% less remaining inventory." 
     },
   ],
   imageSize: {
@@ -100,14 +101,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "C++", value: 90 },
+    { name: "Python", value: 85 },
+    { name: "R", value: 80 },
+    { name: "TypeScript", value: 75 },
+    { name: "HTML", value: 70 },
+    { name: "Java", value: 85 },
+    { name: "Adobe Photoshop", value: 70 },
+    { name: "Excel", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,24 +127,39 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm always open to new opportunities and collaborations. If you have any questions or just want to say hi, please feel free to email me at",
+  email: "francokrepel@ufl.edu",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Computational Genomics Research Assistant',
+      company: 'The Graim Lab',
+      companylogo: require('../assets/img/uf.png'), // Update with a relevant logo or image
+      date: 'April 2023 - Present',
+      location: 'Gainesville, FL',
+      description: 'Crafted an R script to transform Salmon RNA-seq data into count file, enabling its use for downstream statistical processing. Used bioinformatics tools and algorithms (GSEA) to map extracted RNA sequences to biological processes and pathways. Translated complex bioinformatics findings into accessible insights, aiding comprehension among non-expert audiences.',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Equity Research Intern',
+      company: 'AR Partners',
+      companylogo: require('../assets/img/latin_securities.jpg'), // Update with a relevant logo or image for AR Partners
+      date: 'May - June 2022',
+      location: 'Buenos Aires, Argentina',
+      description: 'Automated market data collection using Python, streamlining daily report generation in Excel and Gmail for employees. Analyzed 5 years of financial statement data to model varying company performances and trends using Excel. Utilized Photoshop to customize data visualizations for client presentations, improving data comprehension and engagement.',
     },
+    {
+      role: 'Full-Stack Software Engineer Intern',
+      company: 'Youth in Transformation',
+      companylogo: require('../assets/img/yit.png'), // Update with a relevant logo or image
+      date: 'June – July 2023',
+      location: 'Cape Town, South Africa',
+      description: '', // Add any specific tasks or achievements here
+    }
+    // ... Add other experiences as needed
   ]
 }
 
