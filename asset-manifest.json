@@ -1,20 +1,25 @@
 {
   "files": {
     "main.css": "/home/static/css/main.fe927caf.css",
-    "main.js": "/home/static/js/main.1a1fe859.js",
+    "main.js": "/home/static/js/main.6db4fd1e.js",
     "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
-    "static/media/hashirshoaeb.png": "/home/static/media/hashirshoaeb.23e8b5a1f7de87f03d05.png",
+    "static/media/5.jpg": "/home/static/media/5.85a3108d506e7164fad5.jpg",
+    "static/media/2.JPG": "/home/static/media/2.a7a9387282d708f764fb.JPG",
+    "static/media/4.jpg": "/home/static/media/4.fa4427e6d8c3e2509792.jpg",
+    "static/media/6.jpg": "/home/static/media/6.cee2384046a81a1b31b0.jpg",
+    "static/media/7.JPG": "/home/static/media/7.78b7721c6bccc2304910.JPG",
+    "static/media/3.jpg": "/home/static/media/3.b2d18935329f3d018f7f.jpg",
     "static/media/franco.jpeg": "/home/static/media/franco.863997ce394319487b2d.jpeg",
     "static/media/yit.png": "/home/static/media/yit.a58aeec662837a8133d9.png",
     "static/media/latin_securities.jpg": "/home/static/media/latin_securities.7d1fe9ceff7567452ec7.jpg",
     "static/media/uf.png": "/home/static/media/uf.e9be8422d41183528f7e.png",
     "index.html": "/home/index.html",
     "main.fe927caf.css.map": "/home/static/css/main.fe927caf.css.map",
-    "main.1a1fe859.js.map": "/home/static/js/main.1a1fe859.js.map",
+    "main.6db4fd1e.js.map": "/home/static/js/main.6db4fd1e.js.map",
     "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe927caf.css",
-    "static/js/main.1a1fe859.js"
+    "static/js/main.6db4fd1e.js"
   ]
 }
